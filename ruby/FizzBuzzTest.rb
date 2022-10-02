@@ -31,10 +31,10 @@ class FizzBuzzTest < Test::Unit::TestCase
     end
 
     def test_15を入れたらFizzBuzzが返る
-
+        assert_equal 'FizzBuzz', @obj.run(15)
     end
-    
-    def test_30を入れたらFizzBuzzが返る
 
+    def test_30を入れたらFizzBuzzが返る
+        assert_equal 'FizzBuzz', @obj.run(30)
     end
 end
