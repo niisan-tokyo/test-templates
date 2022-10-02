@@ -27,7 +27,7 @@ class FizzBuzzTest extends TestCase
      */
     public function 値に2を入れたら2を返す()
     {
-
+        $this->assertEquals('2', $this->obj->run(2));
     }
 
     /**
