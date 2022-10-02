@@ -1,16 +1,8 @@
 class FizzBuzz
     def run(num)
-        if num.modulo(15) === 0
-            return 'FizzBuzz'
-        end
-        
-        if num.modulo(3) === 0
-            return 'Fizz'
-        end
-
-        if num.modulo(5) === 0
-            return 'Buzz'
-        end
-        num
+        str = ''
+        str += 'Fizz' if num % 3 === 0
+        str += 'Buzz' if num % 5 === 0
+        str.empty? ? num : str
     end
 end
