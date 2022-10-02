@@ -12,11 +12,11 @@ describe('FizzBuzzのテスト', () => {
     })
 
     test('3をいれたらFizzを返す', () => {
-        
+        expect(obj.run(3)).toBe('Fizz')
     })
 
     test('6をいれたらFizzを返す', () => {
-        
+        expect(obj.run(6)).toBe('Fizz')
     })
 
     test('5をいれたらBuzzを返す', () => {
