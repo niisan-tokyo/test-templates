@@ -19,7 +19,7 @@ class FizzBuzzTest extends TestCase
      */
     public function 値に1をいれたら1を返す()
     {
-
+        $this->assertEquals('1', $this->obj->run(1));
     }
 
     /**
