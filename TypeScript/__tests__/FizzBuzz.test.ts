@@ -28,10 +28,10 @@ describe('FizzBuzzのテスト', () => {
     })
 
     test('15をいれたらFizzBuzzを返す', () => {
-        
+        expect(obj.run(15)).toBe('FizzBuzz')
     })
 
     test('30をいれたらFizzBuzzを返す', () => {
-        
+        expect(obj.run(30)).toBe('FizzBuzz')
     })
 })
