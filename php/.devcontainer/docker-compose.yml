@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    workspace:
+        build: workspace
+        command: sleep infinity
+        volumes:
+            - ../:/var/www/
+        environment:
+            - LANGUAGE=en_US.UTF-8
+            - LC_ALL=en_US.UTF-8

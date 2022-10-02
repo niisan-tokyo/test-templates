@@ -1,0 +1,17 @@
+{
+    "name": "php-test-template",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "workspace",
+    "workspaceFolder": "/var/www",
+    "settings": {
+        "editor.tabSize": 4
+    },
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bmewburn.vscode-intelephense-client"
+			]
+		}
+	}
+}
