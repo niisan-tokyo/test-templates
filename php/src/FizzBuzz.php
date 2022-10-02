@@ -3,8 +3,8 @@ namespace App;
 
 class FizzBuzz
 {
-    public function run(int $num)
+    public function run(int $num): string
     {
-        return '1';
+        return (string)$num;
     }
 }
