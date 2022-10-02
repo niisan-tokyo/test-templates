@@ -5,7 +5,7 @@ services:
         image: ruby
         command: sleep infinity
         volumes:
-            - ../:/var/www/
+            - ../:/var/src/
         environment:
             - LANGUAGE=en_US.UTF-8
             - LC_ALL=en_US.UTF-8

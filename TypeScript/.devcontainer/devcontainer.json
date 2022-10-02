@@ -1,0 +1,17 @@
+{
+    "name": "ts-test-template",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "workspace",
+    "workspaceFolder": "/var/src",
+    "settings": {
+        "editor.tabSize": 4
+    },
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.vscode-typescript-next"
+			]
+		}
+	}
+}

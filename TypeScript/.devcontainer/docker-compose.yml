@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    workspace:
+        image: node
+        command: sleep infinity
+        volumes:
+            - ../:/var/src/
