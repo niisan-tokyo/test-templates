@@ -43,7 +43,7 @@ class FizzBuzzTest extends TestCase
      */
     public function 値に6をいれたらFizzを返す()
     {
-
+        $this->assertEquals('Fizz', $this->obj->run(6));
     }
 
     /**
