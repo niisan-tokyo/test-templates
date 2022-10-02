@@ -8,7 +8,7 @@ describe('FizzBuzzのテスト', () => {
     })
 
     test('2をいれたら2を返す', () => {
-        
+        expect(obj.run(2)).toBe('2')
     })
 
     test('3をいれたらFizzを返す', () => {
