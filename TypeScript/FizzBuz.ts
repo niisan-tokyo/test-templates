@@ -1,16 +1,8 @@
 export class FizzBuzz {
     public run(num: number): string {
-        if (num % 15 === 0) {
-            return 'FizzBuzz'
-        }
-        
-        if (num % 3 === 0) {
-            return 'Fizz'
-        }
-
-        if (num % 5 === 0) {
-            return 'Buzz'
-        }
-        return num.toString()
+        let str = ''
+        str += num % 3 === 0 ? 'Fizz' : ''
+        str += num % 5 === 0 ? 'Buzz' : ''
+        return str !== '' ? str : num.toString()
     }
 }
