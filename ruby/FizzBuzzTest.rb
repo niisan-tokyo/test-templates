@@ -16,7 +16,7 @@ class FizzBuzzTest < Test::Unit::TestCase
         assert_equal 'Fizz', @obj.run(3)
     end
     def test_6を入れたらFizzが返る
-
+        assert_equal 'Fizz', @obj.run(6)
     end
     def test_5を入れたらBuzzが返る
 

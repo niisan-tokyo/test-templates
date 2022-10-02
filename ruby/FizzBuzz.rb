@@ -1,6 +1,6 @@
 class FizzBuzz
     def run(num)
-        if num === 3
+        if num.modulo(3) === 0
             return 'Fizz'
         end
         num
