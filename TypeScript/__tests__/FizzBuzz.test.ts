@@ -20,11 +20,11 @@ describe('FizzBuzzのテスト', () => {
     })
 
     test('5をいれたらBuzzを返す', () => {
-        
+        expect(obj.run(5)).toBe('Buzz')
     })
 
     test('10をいれたらBuzzを返す', () => {
-        
+        expect(obj.run(10)).toBe('Buzz')
     })
 
     test('15をいれたらFizzBuzzを返す', () => {
