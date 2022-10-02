@@ -7,11 +7,11 @@ class FizzBuzzTest < Test::Unit::TestCase
     end
 
     def test_1を入れたら1が返る
-        assert_equal 1, @obj.run(1)
+        assert_equal '1', @obj.run(1)
     end
 
     def test_2を入れたら2が返る
-        assert_equal 2, @obj.run(2)
+        assert_equal '2', @obj.run(2)
     end
 
     def test_3を入れたらFizzが返る
