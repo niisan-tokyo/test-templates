@@ -67,7 +67,7 @@ class FizzBuzzTest extends TestCase
      */
     public function 値に15をいれたらFizzBuzzを返す()
     {
-
+        $this->assertEquals('FizzBuzz', $this->obj->run(15));
     }
 
     /**
@@ -75,6 +75,6 @@ class FizzBuzzTest extends TestCase
      */
     public function 値に30をいれたらFizzBuzzを返す()
     {
-
+        $this->assertEquals('FizzBuzz', $this->obj->run(30));
     }
 }
