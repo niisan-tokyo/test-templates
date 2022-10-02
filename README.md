@@ -6,6 +6,11 @@ multi language test templates
 ちょっと盛りすぎたかも。。。
 
 ```
+composer install
+```
+で使えるようにする。
+
+```
 composer test -- <filename>
 ```
 
@@ -15,7 +20,7 @@ composer test -- <filename>
 今回の例では
 
 ```
-composer test -- tests\FizzBuzzTest.php --color --testdox
+composer test -- tests/FizzBuzzTest.php --color --testdox
 ```
 
 で実行。
