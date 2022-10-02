@@ -30,3 +30,18 @@ ruby FizzBuzzTest.rb
 ```
 
 で動かす。
+
+# TypeScript
+denoの使い方わからないので、nodeでいく。
+
+```
+npm install
+```
+でインストールして、
+
+```
+npx jest
+```
+で実行。
+
+今の実装はよくなさそう？（letはあまり使わないほうがいいって聞いている）
