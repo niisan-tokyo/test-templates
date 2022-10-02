@@ -5,17 +5,8 @@ class FizzBuzz
 {
     public function run(int $num): string
     {
-        if ($num % 15 === 0) {
-            return 'FizzBuzz';
-        }
-
-        if ($num % 3 === 0) {
-            return 'Fizz';
-        }
-
-        if ($num % 5 === 0) {
-            return 'Buzz';
-        }
-        return (string)$num;
+        $str = ($num % 3 === 0) ? 'Fizz': '';
+        $str .= ($num % 5 === 0) ? 'Buzz': '';
+        return ($str) ? $str: (string)$num;
     }
 }
