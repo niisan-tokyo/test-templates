@@ -27,4 +27,4 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(self.obj.run(15), "FizzBuzz")
 
     def test_45をいれたらFizzBuzzを返す(self):
-        None#
+        self.assertEqual(self.obj.run(45), "FizzBuzz")
