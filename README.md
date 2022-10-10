@@ -69,3 +69,23 @@ cargo test
 ```
 cargo run
 ```
+
+# Python
+デフォルトでテスト入っているっぽい。
+
+```
+cd fizzbuzz
+python -m unittest fizzbuzz_test.py 
+```
+
+こんな感じで動かしている
+
+なお、Windowsだとなぜかremote dockerでエラーが出るので、
+
+```
+cd .devcontainer
+docker-compose up -d
+```
+
+やって、リモートコンテナでアタッチするようにしている
+ローカルにpythonがある場合はそっち使っていい。
