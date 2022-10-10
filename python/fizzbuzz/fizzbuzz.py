@@ -1,3 +1,3 @@
 class FizzBuzz:
     def run(self, num):
-        return None
+        return "1"

@@ -9,7 +9,7 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(self.obj.run(1), "1")
 
     def test_7をいれたら7を返す(self):
-        None#
+        self.assertEqual(self.obj.run(7), "7")
 
     def test_3をいれたらFizzを返す(self):
         None#
