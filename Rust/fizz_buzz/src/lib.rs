@@ -1,5 +1,10 @@
 pub fn fizzbuzz(num: usize) -> String {
-    num.to_string()
+    if num == 3 {
+        "fizz".to_string()
+    } else {
+        num.to_string()
+    }
+    
 }
 
 #[cfg(test)]
@@ -26,7 +31,8 @@ mod tests {
 
     #[test]
     fn input_6_and_return_fizz() {
-
+        let result = fizzbuzz(6);
+        assert_eq!(result, "fizz");
     }
 
     #[test]
