@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    workspace:
+        image: python
+        command: sleep infinity
+        volumes:
+            - ../:/var/src

@@ -1,5 +1,5 @@
 {
-    "name": "rust-test-template",
+    "name": "python-test-template",
     "dockerComposeFile": "docker-compose.yml",
     "service": "workspace",
     "workspaceFolder": "/var/src",
