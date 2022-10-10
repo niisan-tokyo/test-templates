@@ -1,9 +1,17 @@
 pub fn fizzbuzz(num: usize) -> String {
-    if num == 3 {
-        "fizz".to_string()
-    } else {
-        num.to_string()
+    if num % 15 == 0 {
+        return "fizzbuzz".to_string();
     }
+    
+    if num % 3 == 0 {
+        return "fizz".to_string()
+    }
+
+    if num % 5 == 0 {
+        return "buzz".to_string()
+    }
+
+    num.to_string()
     
 }
 
@@ -37,21 +45,25 @@ mod tests {
 
     #[test]
     fn input_5_and_return_buzz() {
-
+        let result = fizzbuzz(5);
+        assert_eq!(result, "buzz");
     }
 
     #[test]
     fn input_10_and_return_buzz() {
-
+        let result = fizzbuzz(10);
+        assert_eq!(result, "buzz");
     }
 
     #[test]
     fn input_15_and_return_fizzbuzz() {
-
+        let result = fizzbuzz(15);
+        assert_eq!(result, "fizzbuzz");
     }
 
     #[test]
     fn input_30_and_return_fizzbuzz() {
-
+        let result = fizzbuzz(30);
+        assert_eq!(result, "fizzbuzz");
     }
 }
