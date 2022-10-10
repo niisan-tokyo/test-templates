@@ -1,3 +1,5 @@
 class FizzBuzz:
     def run(self, num):
-        return "1"
+        if num == 3:
+            return "Fizz"
+        return str(num)
