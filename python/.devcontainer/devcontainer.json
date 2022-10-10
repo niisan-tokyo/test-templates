@@ -2,7 +2,7 @@
     "name": "python-test-template",
     "dockerComposeFile": "docker-compose.yml",
     "service": "workspace",
-    "workspaceFolder": "/var/src",
+    "workspaceFolder": "/usr/src",
     "settings": {
         "editor.tabSize": 4
     },

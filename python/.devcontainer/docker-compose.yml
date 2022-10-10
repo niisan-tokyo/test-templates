@@ -1,8 +1,8 @@
-version: "3"
+version: "3.2"
 
 services:
     workspace:
         image: python
         command: sleep infinity
         volumes:
-            - ../:/var/src
+            - ../:/usr/src
