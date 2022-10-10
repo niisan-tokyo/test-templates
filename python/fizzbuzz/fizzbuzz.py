@@ -1,11 +1,6 @@
 class FizzBuzz:
     def run(self, num):
-        if num % 15 == 0:
-            return "FizzBuzz"
-            
-        if num % 3 == 0:
-            return "Fizz"
-
-        if num % 5 == 0:
-            return "Buzz"
-        return str(num)
+        st = ""
+        st += "Fizz" if num % 3 == 0 else ""
+        st += "Buzz" if num % 5 == 0 else ""
+        return str(num) if st == "" else st
