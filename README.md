@@ -50,3 +50,22 @@ npx jest
 で実行。
 
 今の実装はよくなさそう？（letはあまり使わないほうがいいって聞いている）
+
+# Rust
+テストの書き方を知るために、プロジェクトを作ってみる
+
+```
+cargo new fizz_buzz --lib
+```
+
+テストの実行はこんな感じ
+```
+cd fizz_buzz
+cargo test
+```
+
+適当にmain作って動作させる。
+
+```
+cargo run
+```

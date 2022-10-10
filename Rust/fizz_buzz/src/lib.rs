@@ -1,18 +1,12 @@
 pub fn fizzbuzz(num: usize) -> String {
-    if num % 15 == 0 {
-        return "fizzbuzz".to_string();
-    }
-    
-    if num % 3 == 0 {
-        return "fizz".to_string()
-    }
-
-    if num % 5 == 0 {
-        return "buzz".to_string()
-    }
-
-    num.to_string()
-    
+    match (num % 3, num % 5) {
+        (0, 0) => "fizzbuzz",
+        (0, _) => "fizz",
+        (_, 0) => "buzz",
+        (_, _) => {
+            return num.to_string();
+        }
+    }.to_string()
 }
 
 #[cfg(test)]
