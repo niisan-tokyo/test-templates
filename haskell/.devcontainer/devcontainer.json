@@ -1,0 +1,10 @@
+{
+    "name": "haskell-test-template",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "workspace",
+    "workspaceFolder": "/var/src",
+    "settings": {
+        "editor.tabSize": 4
+    },
+	"shutdownAction": "stopCompose"
+}

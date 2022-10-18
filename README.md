@@ -89,3 +89,13 @@ docker-compose up -d
 
 やって、リモートコンテナでアタッチするようにしている
 ローカルにpythonがある場合はそっち使っていい。
+
+# Haskell
+まず、パッケージリストを最新化する
+`cabal update`
+
+ユニットテストのインストール
+`cabal install --lib HUnit`
+
+テストの実行はこんな感じ
+`runghc FizzBuzzTest.hs`
