@@ -99,3 +99,18 @@ docker-compose up -d
 
 テストの実行はこんな感じ
 `runghc FizzBuzzTest.hs`
+
+# Golang
+
+これで準備をしている
+
+```
+go mod init example.com/fizzbuzz
+go mod tidy
+```
+
+テストはこんな感じ
+
+```
+go test
+```
